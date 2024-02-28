@@ -1,18 +1,10 @@
-# Carnegie Hall Digital Collections Metadata Application Profile
-
-## Site Link
-
-[https://carnegiehall.github.io/digitalcolls-metadataprofile/](https://carnegiehall.github.io/digitalcolls-metadataprofile/)
+# UMKC Digital Projects Photograph Metadata Application Profile
 
 ## Overview
 
-*Last updated: December 2018*
+*Last updated: February 28, 2024*
 
-This profile describes metadata elements for item-level asset records created and managed by the [Carnegie Hall Archives](https://www.carnegiehall.org/About/History) for its Digital Collections. The purpose of establishing this profile is to document current metadata standards, cataloging procedures, and controlled vocabularies to allow for self-assessment and interoperability across cultural institutions. Future additions to this profile will include mapping to DPLA properties, Dublin Core, and other appropriate metadata schemas. 
-
-The elements outlined in this initial profile represent metadata for assets available within Carnegie Hall's Digital Collections. The elements represent descriptive, administrative, and technical aspects of the digital objects. These assets serve as digital representations of a broad range of archival materials including photographs, program books, flyers, posters, correspondence, and recordings to support Carnegie Hall's mission and to share our rich history with the widest possible audience. The Carnegie Hall Digital Collections are currently managed in a digital asset management system (DAMS), and we aim to present a public preview of the collection material online in the near future.
-
-Please note this is a preliminary draft release of our metadata profile. Ask questions or share recommendations by following the [Feedback](/README.md#feedback) instructions.
+This metadata application profile specifies the schema, elements, and usage guidelines for still images held by LaBudde Special Collections at the University of Missouri--Kansas City. Still images include the following image class objects as defined by UMKC Digital Special Collections program: graphics, photographs, and posters. The profile contains descriptive metadata provided post-digital conversion/reformatting for the purposes of preparing digital image files for ingest into the Digital Special Collections repository. Machine-generated technical metadata and additional technical and preservation metadata to meet minimal digital preservation standards are under development. Minimal metadata collected during intake and visual inspection are out of scope for this document. 
 
 ### Contents
 
@@ -22,23 +14,13 @@ This site includes a quick look at each element and obligation. This information
 - Details about [CH Digital Collections metadata elements](/elements.md).
 - [Overview of controlled vocabularies, schemas, and formatting](/controlledvocabs.md) applied to portions of the input values for select elements.
 
-## Feedback
-
-CH Archives welcomes your thoughts, questions, and recommendations. 
-
-### Add or Comment on Topics
-
-Anyone is welcome to start a new topic ("issue") by selecting the `Issues` tab in GitHub and clicking the green [New Issue](https://github.com/CarnegieHall/digitalcolls-metadataprofile/issues) button in the upper right.
-
-All existing issues, open and closed, may be reviewed or commented upon in the [Issues](https://github.com/CarnegieHall/digitalcolls-metadataprofile/issues) section.
-
 ### Contact the Archives
 
-Email your thoughts to the Carnegie Hall Archives at **archives@carnegiehall.org** with the subject line ***Digital Collections: Metadata Application Profile Feedback***.
+Email your thoughts to the UMKC Digital Projects team at **digital.projects@umkc.edu** with the subject line ***Digital Collections: Metadata Application Profile Feedback***.
 
 ## Acknowledgements
 
-CH Archives would like to thank the following individuals/projects/organizations for making resources freely available and usable.
+UMKC Digital Projects would like to thank the following individuals/projects/organizations for making resources freely available and usable.
 
 Strategy and structuring informed by information in the Digital Library Federation (DLF) Assessment Interest Group (AIG) Metadata Working Group's [Assessment Toolkit](https://dlfmetadataassessment.github.io/), including resources from the [Metadata Application Profile Clearinghouse](https://dlfmetadataassessment.github.io/MetadataSpecsClearinghouse/):
 
@@ -52,10 +34,6 @@ Additional referenced resources:
 - [Metadata	Application	Profile,	
 University	of	Notre	Dame,	Hesburgh	Libraries](http://cds.library.nd.edu/expertise/documents/MetadataApplicationProfile_Final.pdf)
 
-Feedback section of this Overview document cribs contributing instructions from [AMIA Open Source analog-inspection](https://github.com/amiaopensource/analog-inspection/blob/master/README.md). 
-
 ## License
 
 MIT License - see [License](/LICENSE.md) for details.
-
-**Copyright (c) 2018 Carnegie Hall**
