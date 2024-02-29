@@ -21,3 +21,7 @@ Email your thoughts to the UMKC Digital Projects team at **digital.projects@umkc
 ## License
 
 MIT License - see [License](/LICENSE.md) for details.
+
+## Note
+
+This MAP was made as part of the Final Project assigned in the February 2024 Git and Github for Librarians Course.
