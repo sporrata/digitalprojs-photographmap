@@ -1,0 +1,31 @@
+| ## location                        |                                                                                                                                                          |
+| ---------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Element.Subelement[@attribute]** | location                                                                                                                                                 |
+| **Defined by**                     | [http://www.loc.gov/standards/mods/userguide/location.html](http://www.loc.gov/standards/mods/userguide/location.html)                                   |
+| **Source Definition**              | Identifies the institution or repository holding the resource, or the electronic location in the form of a URL where it is available.                    |
+| **Type of Term**                   | Container element                                                                                                                                        |
+| **Obligation**                     | R                                                                                                                                                        |
+| **Occurrence**                     | Repeatable                                                                                                                                               |
+| **Guidelines - Best Practices**    | Contains collectionURL for digital location and repository for physicalLocation.                                                                         |
+| ### collectionURL                  |                                                                                                                                                          |
+| **Element.Subelement[@attribute]** | location.url[@usage="primary display"][@access="object in context"]                                                                                      |
+| **Defined by**                     | [http://www.loc.gov/standards/mods/userguide/location.html#url](http://www.loc.gov/standards/mods/userguide/location.html#url)                           |
+| **Source Definition**              | Contains the Uniform Resource Location of the resource.                                                                                                  |
+| **DC Mapping**                     | dc:identifier                                                                                                                                            |
+| **Type of Term**                   | Element-attribute                                                                                                                                        |
+| **Obligation**                     | R                                                                                                                                                        |
+| **Occurrence**                     | Repeatable                                                                                                                                               |
+| **Guidelines - Best Practices**    | The URL for the parent collection. Use colon instead of %3A in PID.                                                                                      |
+| **Examples**                       | [http://dl.mospace.umsystem.edu/umkc/islandora/object/umkc:starr](http://dl.mospace.umsystem.edu/umkc/islandora/object/umkc%3Astarr)                     |
+| ### repository                     |                                                                                                                                                          |
+| **Label**                          | Repository                                                                                                                                               |
+| **Element.Subelement[@attribute]** | location.physicalLocation                                                                                                                                |
+| **Islandora Mapping  <br>**        | field_physical_location                                                                                                                                  |
+| **Defined by**                     | [http://www.loc.gov/standards/mods/userguide/location.html#physicallocation](http://www.loc.gov/standards/mods/userguide/location.html#physicallocation) |
+| **Source Definition**              | The institution or repository that holds the resource or where it is available.                                                                          |
+| **DC Mapping**                     | dc:coverage                                                                                                                                              |
+| **Type of Term**                   | Element                                                                                                                                                  |
+| **Obligation**                     | R                                                                                                                                                        |
+| **Occurrence**                     | Repeatable                                                                                                                                               |
+| **Guidelines - Best Practices**    | Note the repository that holds the analog items. When the name is distinctive use short-form name; when not, include "UMKC".                             |
+| **Examples**                       | LaBudde Special Collections  <br>UMKC School of Law                                                                                                      |
